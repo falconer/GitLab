@@ -4,3 +4,4 @@
 
 ```YAML
 ssh-keygen -o -t rsa -b 4096 -C "jenkins@company.com"
+```
