@@ -4,3 +4,6 @@
 
 ssh-keygen -o -t rsa -b 4096 -C "jenkins@company.com"
 
+```YAML
+import player1
+import player2
