@@ -49,8 +49,8 @@ time.sleep(3)
 
 # 대상 : http://git.interparktour.com/R-PLATFORM/TOUR.ELK
 driver.find_element_by_id('project_import_url').send_keys('http://git.interparktour.com/R-PLATFORM/project_moni')
-driver.find_element_by_id('project_import_url_user').send_keys('T06055')
-driver.find_element_by_id('project_import_url_password').send_keys('gusals031')
+driver.find_element_by_id('project_import_url_user').send_keys('TEST0000')
+driver.find_element_by_id('project_import_url_password').send_keys('TEST0000')
 driver.find_element_by_id('project_import_url_password').send_keys(Keys.TAB + Keys.TAB + 'project_moni')
 # driver.find_element_by_id('project_name').send_keys('TOUR.ELK')
 # driver.find_element_by_css_selector(".form-control.input-lg[data-track-property^='project_name']").send_keys("TOUR.ELK")
